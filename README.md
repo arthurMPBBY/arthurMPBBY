@@ -27,6 +27,7 @@ Olá! Sou desenvolvedor de software focado em performance, sistemas desktop e te
 <div align="center">
 
 #### Linguagens
+![Rust](https://img.shields.io/badge/Rust-DEA584?style=for-the-badge&logo=rust&logoColor=black)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -66,6 +67,18 @@ Olá! Sou desenvolvedor de software focado em performance, sistemas desktop e te
         <li><b>Camada Vulkan Explícita (<code>VK_LAYER_GamingFpsHud_present_observer</code>):</b> Intercepta <code>vkQueuePresentKHR</code> em nível de driver com medições precisas de frametime, framerate e jitter.</li>
         <li><b>Comunicação IPC via Shared Memory:</b> Sincronização em tempo real com zero overhead através de memória compartilhada POSIX (<code>shm_open</code>).</li>
         <li><b>Interface Fluida em Qt Quick / QML:</b> Overlay renderizado a alta taxa de quadros com gráfico de frametime em tempo real e visual inspirado no MangoHud.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <h3><a href="https://github.com/crmne/spotifast/pull/1016">🎵 Spotifast — Synced Lyrics Presentation & Layout Stability</a></h3>
+      <p>Modernização e estabilização do sistema de letras sincronizadas (Rust / egui):</p>
+      <ul>
+        <li><b>Estabilidade Tipográfica:</b> Eliminação de saltos e quebras de linha durante a reprodução mantendo tamanho uniforme entre linhas ativas e inativas.</li>
+        <li><b>Indicador Discreto de Intervalo:</b> Barra de 2px sob a linha corrente refletindo o progresso real até o próximo timestamp de linha.</li>
+        <li><b>Backdrop Adaptativo com Contraste Garantido:</b> Ajuste dinâmico de scrim e gradiente nos temas claro e escuro, comprovando contraste superior a 4.5:1 com testes matemáticos.</li>
+        <li><b>Eficiência de Renderização:</b> Redução de acordes do loop gráfico para 50ms estritamente quando há intervalo visível em reprodução, respeitando preferências de movimento reduzido.</li>
       </ul>
     </td>
   </tr>
