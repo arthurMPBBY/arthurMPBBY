@@ -1,115 +1,50 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=arthurMPBBY&fontSize=48&fontAlignY=38&desc=Software%20Developer%20%7C%20Open%20Source%20Contributor&descFontSize=20&descAlignY=62" width="100%"/>
-</div>
+<p align="left">
+  <img src="assets/profile-banner.svg" width="100%" alt="Arthur — ferramentas para um desktop melhor. Windows, Linux e automação." />
+</p>
 
-<div align="center">
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com)
-  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arthurMPBBY)
+<p>
+  <a href="https://arthurmpbby.github.io/">Portfólio ↗</a> &nbsp; / &nbsp;
+  <a href="https://github.com/arthurMPBBY?tab=repositories">Todos os repositórios ↗</a>
+</p>
 
-</div>
+## Software que resolve pequenas fricções.
 
----
+Crio ferramentas para tornar o uso do computador mais direto: alternar janelas, controlar dispositivos e entender o que acontece na tela. Meus projetos passam por **Windows, Linux, automação e interfaces desktop**.
 
-### 👨‍💻 Sobre mim / About Me
+Prefiro interfaces claras, controle local quando possível e desempenho que possa ser medido — não só prometido.
 
-Olá! Sou desenvolvedor de software focado em performance, sistemas desktop e tecnologias multimídia/gráficas no Linux. Gosto de resolver desafios de baixo nível, renderização gráfica, pipelines de shaders e otimização de reprodução de vídeo.
-
-- 🔭 **Atualmente:** Contribuindo ativamente com projetos open source e ferramentas de multimídia no Linux.
-- ⚡ **Áreas de interesse:** Vulkan, Shaders (GLSL), C++, Kotlin / Compose Multiplatform, IoT, otimização de vídeo e Linux desktop.
-- 💬 **Fale comigo sobre:** Linux, renderização gráfica, pipelines de shaders, mpv e desenvolvimento desktop.
-
----
-
-### 🛠️ Tecnologias & Ferramentas / Tech Stack
-
-<div align="center">
-
-#### Linguagens
-![Rust](https://img.shields.io/badge/Rust-DEA584?style=for-the-badge&logo=rust&logoColor=black)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![GLSL](https://img.shields.io/badge/GLSL%20%2F%20Shaders-5586A4?style=for-the-badge&logo=opengl&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-#### Gráficos & Plataformas
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Vulkan](https://img.shields.io/badge/Vulkan-AC162C?style=for-the-badge&logo=vulkan&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
-
-</div>
-
----
-
-### 🌟 Destaques & Projetos Open Source / Featured Projects
+### Em destaque
 
 <table>
-  <tr>
-    <td width="100%">
-      <h3><a href="https://github.com/arthurMPBBY/tuya-smart-lamps">💡 Tuya Smart Lamps Ecosystem</a></h3>
-      <p>Ecossistema IoT local de altíssima performance para lâmpadas inteligentes Tuya v3.5, com latência sub-10ms e resiliência total:</p>
-      <ul>
-        <li><b>Controle Local TCP Sub-10ms:</b> Comunicação direta via soquetes persistentes com keepalive periódico de 12s e mutex desacoplado de I/O de rede.</li>
-        <li><b>Servidor Web REST & SSE:</b> Transmissão em tempo real de mudanças de estado via Server-Sent Events para múltiplos clientes.</li>
-        <li><b>App & Widget Nativo para Android:</b> Widget interativo de tela inicial com resposta tátil instantânea, 5 temas modernos (Frosted Glass, OLED, Cyberpunk, Emerald) e sequenciador anti-corrida.</li>
-        <li><b>Fallback Híbrido Tuya OpenAPI:</b> Autonomia automática com roteamento direto para a nuvem Tuya via HMAC-SHA256 quando o servidor local está desligado ou o smartphone está fora da rede local.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="100%">
-      <h3><a href="https://github.com/arthurMPBBY/gaming-fps-hud">🎮 Gaming FPS HUD & Vulkan Layer Observer</a></h3>
-      <p>Overlay de performance ultraleve e camada de observação Vulkan para KDE Wayland e Linux:</p>
-      <ul>
-        <li><b>Camada Vulkan Explícita (<code>VK_LAYER_GamingFpsHud_present_observer</code>):</b> Intercepta <code>vkQueuePresentKHR</code> em nível de driver com medições precisas de frametime, framerate e jitter.</li>
-        <li><b>Comunicação IPC via Shared Memory:</b> Sincronização em tempo real com zero overhead através de memória compartilhada POSIX (<code>shm_open</code>).</li>
-        <li><b>Interface Fluida em Qt Quick / QML:</b> Overlay renderizado a alta taxa de quadros com gráfico de frametime em tempo real e visual inspirado no MangoHud.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="100%">
-      <h3><a href="https://github.com/crmne/spotifast/pull/1016">🎵 Spotifast — Synced Lyrics Presentation & Layout Stability</a></h3>
-      <p>Modernização e estabilização do sistema de letras sincronizadas (Rust / egui):</p>
-      <ul>
-        <li><b>Estabilidade Tipográfica:</b> Eliminação de saltos e quebras de linha durante a reprodução mantendo tamanho uniforme entre linhas ativas e inativas.</li>
-        <li><b>Indicador Discreto de Intervalo:</b> Barra de 2px sob a linha corrente refletindo o progresso real até o próximo timestamp de linha.</li>
-        <li><b>Backdrop Adaptativo com Contraste Garantido:</b> Ajuste dinâmico de scrim e gradiente nos temas claro e escuro, comprovando contraste superior a 4.5:1 com testes matemáticos.</li>
-        <li><b>Eficiência de Renderização:</b> Redução de acordes do loop gráfico para 50ms estritamente quando há intervalo visível em reprodução, respeitando preferências de movimento reduzido.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="100%">
-      <h3><a href="https://github.com/NuvioMedia/NuvioDesktop/pull/953">🚀 Nuvio Desktop — Linux Video Enhancements & PiP</a></h3>
-      <p>Desenvolvimento e integração de recursos avançados de reprodução de vídeo para desktop Linux:</p>
-      <ul>
-        <li><b>Picture-in-Picture nativo</b> com gerenciamento X11 e tratamento seguro de ciclo de vida contra erros <code>BadWindow</code>.</li>
-        <li><b>Backend Vulkan de alta performance</b> (<code>gpu-next</code> / <code>x11vk</code>) com aceleração de hardware VA-API para redução de latência e zero tearing.</li>
-        <li><b>Motor de Upscaling em tempo real:</b> Integração dos shaders AMD FidelityFX Super Resolution 1.0 (EASU + RCAS), Contrast Adaptive Sharpening (CAS) e Anime4K A+A Fast.</li>
-        <li><b>Integração com LSFG-VK</b> para geração de quadros por camada Vulkan.</li>
-      </ul>
-    </td>
-  </tr>
+<tr><td colspan="2">
+<sub>01 / DESKTOP · WINDOWS</sub>
+<h3><a href="https://github.com/arthurMPBBY/YAHCW">YAHCW — um canto, tudo à mão ↗</a></h3>
+<p>Uma visão geral inspirada no KDE Plasma: janelas com prévias ao vivo, brilho do monitor e saídas de áudio, juntos na mesma tela.</p>
+<p><code>C#</code> <code>WinForms</code> <code>DWM</code> <code>Win32</code></p>
+</td></tr>
+<tr>
+<td width="50%" valign="top">
+<sub>02 / AUTOMAÇÃO · IOT</sub>
+<h3><a href="https://github.com/arthurMPBBY/tuya-smart-lamps">Tuya Smart Lamps ↗</a></h3>
+<p>Controle local de lâmpadas Tuya, interface web, aplicativo de bandeja e integração com Android.</p>
+<p><code>Controle local</code> <code>SSE</code> <code>Android</code></p>
+</td>
+<td width="50%" valign="top">
+<sub>03 / TELEMETRIA · LINUX</sub>
+<h3><a href="https://github.com/arthurMPBBY/gaming-fps-hud">Gaming FPS HUD ↗</a></h3>
+<p>Monitoramento de desempenho e observação de apresentação Vulkan para Linux e KDE Wayland.</p>
+<p><code>C++</code> <code>Vulkan</code> <code>KDE Wayland</code></p>
+</td>
+</tr>
 </table>
 
----
+### Explorando em código aberto
 
-### 📊 Estatísticas / GitHub Stats
+Também experimento melhorias em projetos de terceiros. Estes PRs foram **encerrados sem merge**; são registros das propostas, não funcionalidades incorporadas ao upstream.
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arthurMPBBY&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Arthur's GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arthurMPBBY&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" height="165"/>
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=arthurMPBBY&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" width="60%"/>
-</div>
+- **[Spotifast · letras sincronizadas](https://github.com/crmne/spotifast/pull/1016)** — apresentação das letras, estabilidade de layout e fundo da capa.
+- **[Nuvio Desktop · reprodução no Linux](https://github.com/NuvioMedia/NuvioDesktop/pull/953)** — proposta de PiP, backend Vulkan e opções de upscaling.
 
 ---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer" width="100%"/>
-</div>
+<sub>Menos fricção no desktop. Mais espaço para o que importa.</sub>

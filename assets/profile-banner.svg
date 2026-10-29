@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<title id="title">Arthur — ferramentas para um desktop melhor</title>
+<desc id="desc">Banner editorial em carvão e coral, com uma composição abstrata de janelas.</desc>
+<rect width="1200" height="340" rx="18" fill="#202327"/>
+<path d="M56 61H1098" stroke="#43464a"/>
+<circle cx="58" cy="38" r="5" fill="#c16b59"/>
+<text x="76" y="43" fill="#c9c8c5" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="3">ARTHUR / PROJETOS &amp; EXPERIMENTOS</text>
+<text x="53" y="154" fill="#f5f5f3" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="600">Um desktop melhor.</text>
+<text x="56" y="202" fill="#b7b9bd" font-family="Segoe UI,Arial,sans-serif" font-size="24">Uma ferramenta de cada vez.</text>
+<path d="M56 248H104" stroke="#c16b59" stroke-width="4"/>
+<text x="56" y="292" fill="#b7b9bd" font-family="Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="2">WINDOWS / LINUX / AUTOMAÇÃO</text>
+<rect x="820" y="104" width="245" height="144" rx="10" fill="#292d32" stroke="#575b60"/>
+<rect x="780" y="136" width="245" height="144" rx="10" fill="#32363b" stroke="#777b80"/>
+<rect x="740" y="168" width="245" height="144" rx="10" fill="#25292e" stroke="#c16b59" stroke-width="2"/>
+<path d="M759 194H966" stroke="#55595f"/>
+<circle cx="761" cy="182" r="3" fill="#c16b59"/>
+<rect x="760" y="211" width="88" height="79" rx="4" fill="#3b4047"/>
+<rect x="860" y="211" width="105" height="34" rx="4" fill="#3b4047"/>
+<path d="M862 268H963" stroke="#575d64" stroke-width="4" stroke-linecap="round"/>
+<path d="M862 268H916" stroke="#c16b59" stroke-width="4" stroke-linecap="round"/>
+<circle cx="916" cy="268" r="6" fill="#e1b2a5"/>
+</svg>
